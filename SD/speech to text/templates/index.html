@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech to sign</title>
+  </head>
+  <body>
+    <h1>Speech to sign</h1>
+    <form action="/showimg" method="POST">
+      <label for="text">click button to speak</label><br>
+      <input type="submit" value="Speak" name="speak"/><br>
+    </form>
+    <br />
+    <p>{{ text }}</p>
+    <img src="{{ url }}" />
+
+  </body>
+</html>
